@@ -391,7 +391,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -423,6 +423,35 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
+}
+
+.skills .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+
+.skills .content table th i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #149ddd;
+}
+
+.skills .content p:last-child {
+  margin-bottom: 0;
+}
+
+.skills .section-title {
+  padding-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
